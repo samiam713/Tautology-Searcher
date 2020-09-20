@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3FC16042517CB9600183E71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FC16032517CB9600183E71 /* AppDelegate.swift */; };
+		D3FC16062517CB9600183E71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FC16052517CB9600183E71 /* ContentView.swift */; };
+		D3FC16082517CB9700183E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FC16072517CB9700183E71 /* Assets.xcassets */; };
+		D3FC160B2517CB9700183E71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FC160A2517CB9700183E71 /* Preview Assets.xcassets */; };
+		D3FC160E2517CB9700183E71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3FC160C2517CB9700183E71 /* Main.storyboard */; };
+		D3FC161A2517CB9700183E71 /* Tautology_SearcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FC16192517CB9700183E71 /* Tautology_SearcherTests.swift */; };
+		D3FC16252517CB9800183E71 /* Tautology_SearcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FC16242517CB9800183E71 /* Tautology_SearcherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3FC16162517CB9700183E71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3FC15F82517CB9600183E71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3FC15FF2517CB9600183E71;
+			remoteInfo = "Tautology Searcher";
+		};
+		D3FC16212517CB9700183E71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3FC15F82517CB9600183E71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3FC15FF2517CB9600183E71;
+			remoteInfo = "Tautology Searcher";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3FC16002517CB9600183E71 /* Tautology Searcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tautology Searcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FC16032517CB9600183E71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3FC16052517CB9600183E71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3FC16072517CB9700183E71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3FC160A2517CB9700183E71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3FC160D2517CB9700183E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3FC160F2517CB9700183E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3FC16102517CB9700183E71 /* Tautology_Searcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tautology_Searcher.entitlements; sourceTree = "<group>"; };
+		D3FC16152517CB9700183E71 /* Tautology SearcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tautology SearcherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FC16192517CB9700183E71 /* Tautology_SearcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tautology_SearcherTests.swift; sourceTree = "<group>"; };
+		D3FC161B2517CB9700183E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3FC16202517CB9700183E71 /* Tautology SearcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tautology SearcherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FC16242517CB9800183E71 /* Tautology_SearcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tautology_SearcherUITests.swift; sourceTree = "<group>"; };
+		D3FC16262517CB9800183E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3FC15FD2517CB9600183E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FC16122517CB9700183E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FC161D2517CB9700183E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3FC15F72517CB9600183E71 = {
+			isa = PBXGroup;
+			children = (
+				D3FC16022517CB9600183E71 /* Tautology Searcher */,
+				D3FC16182517CB9700183E71 /* Tautology SearcherTests */,
+				D3FC16232517CB9700183E71 /* Tautology SearcherUITests */,
+				D3FC16012517CB9600183E71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3FC16012517CB9600183E71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3FC16002517CB9600183E71 /* Tautology Searcher.app */,
+				D3FC16152517CB9700183E71 /* Tautology SearcherTests.xctest */,
+				D3FC16202517CB9700183E71 /* Tautology SearcherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3FC16022517CB9600183E71 /* Tautology Searcher */ = {
+			isa = PBXGroup;
+			children = (
+				D3FC16032517CB9600183E71 /* AppDelegate.swift */,
+				D3FC16052517CB9600183E71 /* ContentView.swift */,
+				D3FC16072517CB9700183E71 /* Assets.xcassets */,
+				D3FC160C2517CB9700183E71 /* Main.storyboard */,
+				D3FC160F2517CB9700183E71 /* Info.plist */,
+				D3FC16102517CB9700183E71 /* Tautology_Searcher.entitlements */,
+				D3FC16092517CB9700183E71 /* Preview Content */,
+			);
+			path = "Tautology Searcher";
+			sourceTree = "<group>";
+		};
+		D3FC16092517CB9700183E71 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D3FC160A2517CB9700183E71 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D3FC16182517CB9700183E71 /* Tautology SearcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3FC16192517CB9700183E71 /* Tautology_SearcherTests.swift */,
+				D3FC161B2517CB9700183E71 /* Info.plist */,
+			);
+			path = "Tautology SearcherTests";
+			sourceTree = "<group>";
+		};
+		D3FC16232517CB9700183E71 /* Tautology SearcherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3FC16242517CB9800183E71 /* Tautology_SearcherUITests.swift */,
+				D3FC16262517CB9800183E71 /* Info.plist */,
+			);
+			path = "Tautology SearcherUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3FC15FF2517CB9600183E71 /* Tautology Searcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FC16292517CB9800183E71 /* Build configuration list for PBXNativeTarget "Tautology Searcher" */;
+			buildPhases = (
+				D3FC15FC2517CB9600183E71 /* Sources */,
+				D3FC15FD2517CB9600183E71 /* Frameworks */,
+				D3FC15FE2517CB9600183E71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tautology Searcher";
+			productName = "Tautology Searcher";
+			productReference = D3FC16002517CB9600183E71 /* Tautology Searcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3FC16142517CB9700183E71 /* Tautology SearcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FC162C2517CB9800183E71 /* Build configuration list for PBXNativeTarget "Tautology SearcherTests" */;
+			buildPhases = (
+				D3FC16112517CB9700183E71 /* Sources */,
+				D3FC16122517CB9700183E71 /* Frameworks */,
+				D3FC16132517CB9700183E71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3FC16172517CB9700183E71 /* PBXTargetDependency */,
+			);
+			name = "Tautology SearcherTests";
+			productName = "Tautology SearcherTests";
+			productReference = D3FC16152517CB9700183E71 /* Tautology SearcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3FC161F2517CB9700183E71 /* Tautology SearcherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FC162F2517CB9800183E71 /* Build configuration list for PBXNativeTarget "Tautology SearcherUITests" */;
+			buildPhases = (
+				D3FC161C2517CB9700183E71 /* Sources */,
+				D3FC161D2517CB9700183E71 /* Frameworks */,
+				D3FC161E2517CB9700183E71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3FC16222517CB9700183E71 /* PBXTargetDependency */,
+			);
+			name = "Tautology SearcherUITests";
+			productName = "Tautology SearcherUITests";
+			productReference = D3FC16202517CB9700183E71 /* Tautology SearcherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3FC15F82517CB9600183E71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					D3FC15FF2517CB9600183E71 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					D3FC16142517CB9700183E71 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = D3FC15FF2517CB9600183E71;
+					};
+					D3FC161F2517CB9700183E71 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = D3FC15FF2517CB9600183E71;
+					};
+				};
+			};
+			buildConfigurationList = D3FC15FB2517CB9600183E71 /* Build configuration list for PBXProject "Tautology Searcher" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3FC15F72517CB9600183E71;
+			productRefGroup = D3FC16012517CB9600183E71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3FC15FF2517CB9600183E71 /* Tautology Searcher */,
+				D3FC16142517CB9700183E71 /* Tautology SearcherTests */,
+				D3FC161F2517CB9700183E71 /* Tautology SearcherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3FC15FE2517CB9600183E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FC160E2517CB9700183E71 /* Main.storyboard in Resources */,
+				D3FC160B2517CB9700183E71 /* Preview Assets.xcassets in Resources */,
+				D3FC16082517CB9700183E71 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FC16132517CB9700183E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FC161E2517CB9700183E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3FC15FC2517CB9600183E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FC16062517CB9600183E71 /* ContentView.swift in Sources */,
+				D3FC16042517CB9600183E71 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FC16112517CB9700183E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FC161A2517CB9700183E71 /* Tautology_SearcherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FC161C2517CB9700183E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FC16252517CB9800183E71 /* Tautology_SearcherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3FC16172517CB9700183E71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3FC15FF2517CB9600183E71 /* Tautology Searcher */;
+			targetProxy = D3FC16162517CB9700183E71 /* PBXContainerItemProxy */;
+		};
+		D3FC16222517CB9700183E71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3FC15FF2517CB9600183E71 /* Tautology Searcher */;
+			targetProxy = D3FC16212517CB9700183E71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3FC160C2517CB9700183E71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3FC160D2517CB9700183E71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3FC16272517CB9800183E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3FC16282517CB9800183E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D3FC162A2517CB9800183E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Tautology Searcher/Tautology_Searcher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Tautology Searcher/Preview Content\"";
+				DEVELOPMENT_TEAM = Y975RXV2SM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Tautology Searcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.samdonovan.Tautology-Searcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D3FC162B2517CB9800183E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Tautology Searcher/Tautology_Searcher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Tautology Searcher/Preview Content\"";
+				DEVELOPMENT_TEAM = Y975RXV2SM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Tautology Searcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.samdonovan.Tautology-Searcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D3FC162D2517CB9800183E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y975RXV2SM;
+				INFOPLIST_FILE = "Tautology SearcherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.samdonovan.Tautology-SearcherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tautology Searcher.app/Contents/MacOS/Tautology Searcher";
+			};
+			name = Debug;
+		};
+		D3FC162E2517CB9800183E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y975RXV2SM;
+				INFOPLIST_FILE = "Tautology SearcherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.samdonovan.Tautology-SearcherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tautology Searcher.app/Contents/MacOS/Tautology Searcher";
+			};
+			name = Release;
+		};
+		D3FC16302517CB9800183E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y975RXV2SM;
+				INFOPLIST_FILE = "Tautology SearcherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.samdonovan.Tautology-SearcherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Tautology Searcher";
+			};
+			name = Debug;
+		};
+		D3FC16312517CB9800183E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y975RXV2SM;
+				INFOPLIST_FILE = "Tautology SearcherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.samdonovan.Tautology-SearcherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Tautology Searcher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3FC15FB2517CB9600183E71 /* Build configuration list for PBXProject "Tautology Searcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FC16272517CB9800183E71 /* Debug */,
+				D3FC16282517CB9800183E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3FC16292517CB9800183E71 /* Build configuration list for PBXNativeTarget "Tautology Searcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FC162A2517CB9800183E71 /* Debug */,
+				D3FC162B2517CB9800183E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3FC162C2517CB9800183E71 /* Build configuration list for PBXNativeTarget "Tautology SearcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FC162D2517CB9800183E71 /* Debug */,
+				D3FC162E2517CB9800183E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3FC162F2517CB9800183E71 /* Build configuration list for PBXNativeTarget "Tautology SearcherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FC16302517CB9800183E71 /* Debug */,
+				D3FC16312517CB9800183E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3FC15F82517CB9600183E71 /* Project object */;
+}
