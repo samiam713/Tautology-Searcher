@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3867F20252CE4F50089787A /* LoadingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3867F1F252CE4F50089787A /* LoadingAnimation.swift */; };
 		D3FC16042517CB9600183E71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FC16032517CB9600183E71 /* AppDelegate.swift */; };
-		D3FC16062517CB9600183E71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FC16052517CB9600183E71 /* ContentView.swift */; };
+		D3FC16062517CB9600183E71 /* TautologySearcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FC16052517CB9600183E71 /* TautologySearcherView.swift */; };
 		D3FC16082517CB9700183E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FC16072517CB9700183E71 /* Assets.xcassets */; };
 		D3FC160B2517CB9700183E71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FC160A2517CB9700183E71 /* Preview Assets.xcassets */; };
 		D3FC160E2517CB9700183E71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3FC160C2517CB9700183E71 /* Main.storyboard */; };
 		D3FC161A2517CB9700183E71 /* Tautology_SearcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FC16192517CB9700183E71 /* Tautology_SearcherTests.swift */; };
 		D3FC16252517CB9800183E71 /* Tautology_SearcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FC16242517CB9800183E71 /* Tautology_SearcherUITests.swift */; };
+		D3FC16362517CF6500183E71 /* TautologySearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FC16352517CF6500183E71 /* TautologySearcher.swift */; };
+		D3FC163C2517CFF000183E71 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FC163B2517CFF000183E71 /* Expression.swift */; };
+		D3FC16502517D07E00183E71 /* AtomicFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FC164F2517D07E00183E71 /* AtomicFunction.swift */; };
+		D3FC16552517D09100183E71 /* CompositeFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FC16542517D09100183E71 /* CompositeFunction.swift */; };
+		D3FC166025199C2800183E71 /* TautologiesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FC165F25199C2800183E71 /* TautologiesList.swift */; };
+		D3FC166B25199F6700183E71 /* ExpressionFromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FC166A25199F6700183E71 /* ExpressionFromString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D3867F1F252CE4F50089787A /* LoadingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAnimation.swift; sourceTree = "<group>"; };
 		D3FC16002517CB9600183E71 /* Tautology Searcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tautology Searcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3FC16032517CB9600183E71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D3FC16052517CB9600183E71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3FC16052517CB9600183E71 /* TautologySearcherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TautologySearcherView.swift; sourceTree = "<group>"; };
 		D3FC16072517CB9700183E71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3FC160A2517CB9700183E71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D3FC160D2517CB9700183E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,6 +56,12 @@
 		D3FC16202517CB9700183E71 /* Tautology SearcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tautology SearcherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3FC16242517CB9800183E71 /* Tautology_SearcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tautology_SearcherUITests.swift; sourceTree = "<group>"; };
 		D3FC16262517CB9800183E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3FC16352517CF6500183E71 /* TautologySearcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TautologySearcher.swift; sourceTree = "<group>"; };
+		D3FC163B2517CFF000183E71 /* Expression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
+		D3FC164F2517D07E00183E71 /* AtomicFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicFunction.swift; sourceTree = "<group>"; };
+		D3FC16542517D09100183E71 /* CompositeFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeFunction.swift; sourceTree = "<group>"; };
+		D3FC165F25199C2800183E71 /* TautologiesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TautologiesList.swift; sourceTree = "<group>"; };
+		D3FC166A25199F6700183E71 /* ExpressionFromString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressionFromString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +113,16 @@
 			isa = PBXGroup;
 			children = (
 				D3FC16032517CB9600183E71 /* AppDelegate.swift */,
-				D3FC16052517CB9600183E71 /* ContentView.swift */,
+				D3FC165F25199C2800183E71 /* TautologiesList.swift */,
+				D3FC16432517CFF700183E71 /* ExpressionRepresentation */,
+				D3FC16352517CF6500183E71 /* TautologySearcher.swift */,
+				D3FC16052517CB9600183E71 /* TautologySearcherView.swift */,
 				D3FC16072517CB9700183E71 /* Assets.xcassets */,
 				D3FC160C2517CB9700183E71 /* Main.storyboard */,
 				D3FC160F2517CB9700183E71 /* Info.plist */,
 				D3FC16102517CB9700183E71 /* Tautology_Searcher.entitlements */,
 				D3FC16092517CB9700183E71 /* Preview Content */,
+				D3867F1F252CE4F50089787A /* LoadingAnimation.swift */,
 			);
 			path = "Tautology Searcher";
 			sourceTree = "<group>";
@@ -133,6 +151,17 @@
 				D3FC16262517CB9800183E71 /* Info.plist */,
 			);
 			path = "Tautology SearcherUITests";
+			sourceTree = "<group>";
+		};
+		D3FC16432517CFF700183E71 /* ExpressionRepresentation */ = {
+			isa = PBXGroup;
+			children = (
+				D3FC163B2517CFF000183E71 /* Expression.swift */,
+				D3FC166A25199F6700183E71 /* ExpressionFromString.swift */,
+				D3FC164F2517D07E00183E71 /* AtomicFunction.swift */,
+				D3FC16542517D09100183E71 /* CompositeFunction.swift */,
+			);
+			path = ExpressionRepresentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,8 +294,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3FC16062517CB9600183E71 /* ContentView.swift in Sources */,
+				D3FC16362517CF6500183E71 /* TautologySearcher.swift in Sources */,
+				D3FC16062517CB9600183E71 /* TautologySearcherView.swift in Sources */,
+				D3FC16552517D09100183E71 /* CompositeFunction.swift in Sources */,
+				D3FC166025199C2800183E71 /* TautologiesList.swift in Sources */,
+				D3867F20252CE4F50089787A /* LoadingAnimation.swift in Sources */,
 				D3FC16042517CB9600183E71 /* AppDelegate.swift in Sources */,
+				D3FC16502517D07E00183E71 /* AtomicFunction.swift in Sources */,
+				D3FC166B25199F6700183E71 /* ExpressionFromString.swift in Sources */,
+				D3FC163C2517CFF000183E71 /* Expression.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
