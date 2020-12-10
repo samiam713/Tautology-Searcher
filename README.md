@@ -1,5 +1,7 @@
 # Tautology-Searcher
 
+https://drive.google.com/file/d/109oHfz4Fa68NAMZ7BmOpyUy-GWYKk1gR/view?usp=sharing
+
 This is a macOS app that uses brute force (and some minor optimizations to avoid doing some work multiple times) to find equivalent forms of logical expressions.
 
 For example, searching "or($0,not($0))" would yield expressions like "true" and "or(not($0),$0)". 
