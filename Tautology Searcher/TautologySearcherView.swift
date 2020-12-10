@@ -25,7 +25,7 @@ struct TautologySearcherView: View {
     var body: some View {
         VStack {
             TextField("Input Expression", text: $inputTautology)
-                .frame(width: 700, alignment: .leading)
+                .frame(width: 700, height: 50, alignment: .leading)
             HStack {
                 Button("Example 1") {
                     inputTautology = "equals(not(not($0)),not($0))"
@@ -63,7 +63,12 @@ struct TautologySearcherView: View {
                 }
             }
             Divider()
-            List(outputExpressions, id: \.self, rowContent: {Text($0)})
+            List(outputExpressions, id: \.self, rowContent: {x in
+                HStack {
+                Spacer()
+                Text(x)
+                Spacer()
+            }})
         }
     }
 }

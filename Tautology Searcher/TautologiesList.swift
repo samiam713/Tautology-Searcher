@@ -25,8 +25,9 @@ let compressedData: [Expression] = [
     or(not(p),p), // 1
     not(and(p,not(p))), // 2
     equals(p,or(p,p)), // 4a
-    equals(p, and(q, q)), // 4b
+    equals(p, and(p,p)), // 4b
     equals(not(not(p)),p), // 5
+    not(equals(not(p), p)),
     equals(or(p,q),or(q,p)), // 6a
     equals(and(p,q),and(q,p)), // 6b
     equals(equals(p, q), equals(q, p)), // 6c
